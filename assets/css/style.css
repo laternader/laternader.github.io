@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #067ded;
+  color: #69be28;
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #0678e3;
+  background: #69be28;
   transition: background 0.2s ease-in-out;
 }
 
@@ -1027,7 +1027,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #0678e3;
+  background: #69be28;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1157,7 +1157,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #0678e3;
+  background: #69be28;
   color: #fff;
   text-decoration: none;
 }
