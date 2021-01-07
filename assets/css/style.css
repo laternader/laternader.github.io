@@ -1169,3 +1169,37 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/*-----------------------------------------------------------# Take Button And Make It Unique
+------------------------------------------------------------*/
+.contact .special-button button[type="submit"] {
+  text-align: center;
+  background: #002244;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.contact .special-button button[type="submit"]:hover {
+  background: #69be28;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
