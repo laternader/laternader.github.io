@@ -422,9 +422,21 @@
 
         <div class="section-title">
           <h2>Resume</h2>
-          <!--<p>This resume was updated on 2/21/25. To view, <a href="assets/resumes/nader_da_2025.pdf" target="_blank">click here</a></p>-->
-          <p>This resume was updated on 2/21/25. To view, use the embedded PDF below:</p>
-          <iframe src="assets/resumes/nader_da_2025.pdf" width="100%" height="600px"></iframe>
+          <p>This resume was updated on 2/21/25. To view, <a href="assets/resumes/nader_da_2025.pdf" target="_blank">click here</a></p>
+          
+          <p>This resume was updated on 2/21/25. To view, <a href="#" onclick="promptPassword()">click here</a></p>
+
+          <script>
+            function promptPassword() {
+              var password = prompt("Enter the password to view the resume:");
+              if (password === "NADER!!!!!") {  // Replace "yourPassword" with your desired password
+                window.open("assets/resumes/nader_da_2025.pdf", "_blank");
+              } else {
+                alert("Incorrect password. Access denied.");
+              }
+            }
+          </script>
+
 
         </div>
 
